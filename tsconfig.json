@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "sourceMap": true,
+    "inlineSources": true,
+    "sourceRoot": "/",
+    "outDir": "dist",
+    "strict": true,
+    "lib": [
+      "es2019"
+    ],
+    "esModuleInterop": true,
+    "target": "ES5",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "noEmitHelpers": true,
+    "importHelpers": true,
+    "diagnostics": true,
+    "extendedDiagnostics": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
